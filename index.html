@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="formStyle.css" />
+  </head>
+
+  <body>
+    <div id="authForm">
+      <h2>Login Form</h2>
+
+      <form action="/login" method="POST">
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="userEmail"
+          name="email"
+          placeholder="Enter your Email"
+          required
+        /><br /><br />
+
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="userPassword"
+          name="password"
+          placeholder="Enter your Password"
+          required
+        /><br /><br />
+
+        <div class="button-container">
+          <button type="button" id="signInButton">Sign In</button>
+          <button type="button" id="signUpButton">Sign Up</button>
+        </div>
+      </form>
+    </div>
+    <div id="secretContent">
+      <h3>This is a top secret INFORMATION</h3>
+      <h1>AUTHENTICATED</h1>
+      <button type="button" id="signOutButton">Sign Out</button>
+    </div>
+    <script src="app-Auth.js" type="module"></script>
+    <script src="firbase-Auth.js" type="module"></script>
+  </body>
+</html>

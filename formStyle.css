@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #09744b;
+  color: #f4f4f9;
+
+}
+h2 {
+  text-align: center;
+  color:whitesmoke;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #04452a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+label {
+  font-weight: bold;
+  color: whitesmoke;
+  display: block;
+  margin-bottom: 5px;
+}
+form input,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #5ed3ac;
+  background-color: #5ed3ac;
+  color: #f4f4f9;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Add space between buttons */
+}
+
+button {
+  padding: 10px 20px; /* Adjust padding for better appearance */
+  background-color: #0c8027;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #085515;
+}

@@ -1,0 +1,114 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #09744b;
+  color: #f4f4f9;
+}
+
+h1,
+h2 {
+  color: #f4f4f9;
+  /* text-align: center; */
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+form {
+  margin-top: 30px;
+  max-width: 250px;
+  margin-left: 15px;
+  /* margin-right: auto; */
+  background-color: #04452a;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: center; */
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #5ed3ac;
+  background-color: #5ed3ac;
+  color: #f4f4f9;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+form input:focus,
+form button:focus {
+  outline: none;
+  border-color: #075239;
+  box-shadow: 0 0 5px rgba(30, 181, 78, 0.5);
+}
+
+form button {
+  background-color: #0c8027;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #085515;
+  transform: translateY(-2px);
+}
+
+
+#productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin-top: 20px;
+}
+
+.product-card {
+  background: #9e9050;
+  border: 1px solid #463b0d;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h3 {
+  margin-top: 0;
+  color: #f4f4f9;
+  font-size: 20px;
+}
+
+.product-card p {
+  margin: 8px 0;
+  color: #f4f4f9;
+  font-size: 15px;
+}
+
+.product-card button {
+  background-color: #c62828;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.product-card button:hover {
+  background-color: #09744b;
+  transform: translateY(-3px);
+}
+
